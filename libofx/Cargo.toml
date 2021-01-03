@@ -1,0 +1,15 @@
+[package]
+name = "libofx"
+version = "0.1.0"
+authors = ["Jonas Malaco <jonas@protocubo.io>"]
+edition = "2018"
+description = "(Future) Idiomatic Rust wrapper over libofx"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+libc = "0.2"
+libofx-sys = { path = "../libofx-sys" }
+
+[build-dependencies]
+cc = "1.0"
+pkg-config = "0.3"

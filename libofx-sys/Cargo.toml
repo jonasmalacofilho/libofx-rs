@@ -1,0 +1,10 @@
+[package]
+name = "libofx-sys"
+version = "0.1.0"
+authors = ["Jonas Malaco <jonas@protocubo.io>"]
+edition = "2018"
+description = "FFI to libofx"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+libc = "0.2"
